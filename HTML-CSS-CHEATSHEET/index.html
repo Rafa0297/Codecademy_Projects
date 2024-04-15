@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Css Cheatsheet</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>CSS Selectors</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>Selector Name</th>
+        <th>What does it select</th>
+        <th>Example</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Element selector (sometimes called a tag or type selector)</td>
+        <td>All HTML elements of the specified type.</td>
+        <td>
+          <code>p</code>
+          <br>
+          selects
+          <code> &lt;p&gt; </code>
+        </td>
+      </tr>
+      <tr>
+        <td>ID selector</td>
+        <td>The element on the page with the specified ID. On a given HTML page, each id value should be unique.</td>
+        <td>
+          <code>#my-id</code>
+          <br>
+          selects
+          <code> &lt;p id="my-id"&gt;</code> or <code>&lt;a id="my-id"&gt;</code>
+        </td>
+      </tr>
+      <tr>
+        <td>Class selector</td>
+        <td>The element(s) on the page with the specified class. Multiple instances of the same class can appear on a page.</td>
+        <td>
+          <code>.my-class</code>
+          <br>
+          selects
+          <code> &lt;p class="my-class"&gt; </code> and <code>&lt;a class="my-class"&gt;</code>
+        </td>
+      </tr>
+      <tr>
+        <td>Attribute selector</td>
+        <td>The element(s) on the page with the specified attribute.</td>
+        <td>
+          <code>img[src]</code>
+          <br>
+          selects
+          <code> &lt;img src="myimage.png"&gt; </code> but not <code>&lt;img&gt;</code>
+        </td>
+      </tr>
+      <tr>
+        <td>Pseudo-class selector	</td>
+        <td>The specified element(s), but only when in the specified state. (For example, when a cursor hovers over a link.)</td>
+        <td>
+          <code>a:hover</code>
+          <br>
+          selects
+          <code> &lt;a&gt; </code> but only when the mouse pointer is hovering over the link
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
