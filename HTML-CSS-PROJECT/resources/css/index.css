@@ -1,0 +1,62 @@
+* {
+  font-family: Helvetica, Arial, sans-serif;
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  background-color: rgba(255, 255, 255, 0.42);
+  width: 100%;
+  z-index: 2;
+}
+
+.navbar li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+}
+.banner {
+  background-color: #4d00ff;
+  color: white;
+  margin-top: 50px;
+  text-align: center;
+  padding: 100px 0;
+}
+
+#small-riri {
+  height: 100px;
+  width: 100px;
+  filter: drop-shadow(2px 2px 2px black);
+}
+
+.gritter-section {
+  padding: 100px 30px;
+}
+
+#gritter {
+  color: blue;
+  font-size: 100px;
+}
+
+#greets li {
+  list-style: none;
+}
+
+.bold {
+  font-weight: 900;
+}
+
+.avatar {
+  background-image: url(../images/Rihanna-PNG-Download-Image.png);
+  background-size: cover;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+  filter: drop-shadow(2px 2px 2px black);
+}
