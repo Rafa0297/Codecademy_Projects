@@ -1,0 +1,89 @@
+body {
+  margin: 0 10%;
+  font-family: monospace;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 2em;
+  margin: 10px;
+}
+
+.container {
+  border: solid;
+  padding: 10px;
+  margin: 15px auto;
+  font-size: 1.25em;
+  border-radius: 10px;
+}
+
+.color-container {
+  width: 100%;
+}
+
+.color-panel {
+  display: inline-block;
+  width: 28%;
+  text-align: center;
+  border: 2px solid rgba(0, 0, 0, 0.422);
+  margin: 5px;
+  font-weight: bold;
+}
+
+.button-color {
+  background-color: #8a2be2;
+  color: white;
+}
+
+.logo-color {
+  background-color: #6c01d1;
+  color: white;
+}
+
+.nav-color {
+  background-color: #954fd6;
+  color: white;
+}
+
+.hover-color {
+  background-color: #6b0579;
+  color: white;
+}
+
+.font-panel {
+  width: 45%;
+  display: inline-block;
+  min-height: 120px;
+}
+
+.protest-riot {
+  font-family: "Protest Riot", sans-serif;
+}
+
+.roboto {
+  font-family: 'Roboto', sans-serif;
+}
+
+.monospace {
+  font-family: monospace;
+}
+
+.kode-mono {
+  font-family: "Kode Mono", monospace;
+  font-size: 16px;
+}
+
+.regular {
+  font-style: normal;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: bold;
+}
