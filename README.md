@@ -1,4 +1,4 @@
-# My Codecademy Projects Showcase
+# My Codecademy Projects Showcase!!
 
 This repository includes the projects I've built while learning on Codecademy 🤖
 
