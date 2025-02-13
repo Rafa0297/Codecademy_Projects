@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" defer></script>
+    <title>My portfolio</title>
+  </head>
+  <body>
+    <nav>
+      <h2 id="logo">Rafael Infante</h2>
+      <ul class="navigation-items">
+        <li class="navigation-item" href="#about-me">About Me</li>
+        <li class="navigation-item" href="#projects">Projects</li>
+        <li class="navigation-item" href="#skills">Skills</li>
+        <li class="navigation-item" href="#contact">Contact</li>
+      </ul>
+    </nav>
+
+    <main>
+      <section id="about-me">
+        <div class="about-me-container">
+          <div class="about-me-text-container">
+            <h2>About Me</h2>
+            <p>
+              Hi! I'm Rafael, a Junior Web Developer passionate about building
+              user-centric applications. I specialize in frontend development
+              with JavaScript, React, and the MERN stack, crafting intuitive and
+              engaging digital experiences. 🚀
+            </p>
+            <p>
+              One of my proudest accomplishments is developing an application to
+              help older adults connect with caregivers through a simple and
+              accessible interface. This project reinforced my passion for
+              creating technology that makes a real difference in people's
+              lives.
+            </p>
+            <p>
+              Outside of coding, I love going hiking and exploring nature.
+              There's something about reaching the top of a trail that feels
+              just as rewarding as solving a tough coding challenge! 🌿🏔️
+            </p>
+            <p>
+              Fun fact! I've been programing for
+              <span id="time-container">0</span> seconds!
+            </p>
+          </div>
+          <img
+            src="./images/rafael.png"
+            alt="A photo of Rafael Infante"
+            class="portrait"
+          />
+        </div>
+      </section>
+
+      <section id="projects">
+        <h2>Projects</h2>
+        <details class="project">
+          <summary class="project-title">
+            <h3>Loving Hands</h3>
+          </summary>
+          <img
+            src="./images/screenshot1.png"
+            alt="LovingHands app screenshot"
+            class="project-image"
+          />
+          <p class="project-description">
+            App designed to connect older adults with caregivers
+          </p>
+          <a href="https://lovinghands.netlify.app/">Link to LovingHands</a>
+        </details>
+        <details class="project">
+          <summary class="project-title">
+            <h3>unSocial</h3>
+          </summary>
+          <img
+            src="./images/screenshot2.png"
+            alt="unsocial project image"
+            class="project-image"
+          />
+          <p class="project-description">
+            Developed unSocial, a full-stack social media application designed
+            to foster authentic interactions.
+          </p>
+          <a href="https://unsocialproject.netlify.app/">Link to unSocial</a>
+        </details>
+        <details class="project">
+          <summary class="project-title">
+            <h3>Responsive Landing Page</h3>
+          </summary>
+          <img
+            src="./images/screenshot3.png"
+            alt="landing page image"
+            class="project-image"
+          />
+          <p class="project-description">Responsive Landing page</p>
+          <a href="">Link to Landing page</a>
+        </details>
+      </section>
+
+      <section id="skills">
+        <h2>Skills</h2>
+        <div id="skills-container">
+          <i class="fab fa-html5"></i>
+          <i class="fab fa-css3-alt"></i>
+          <i class="fab fa-js"></i>
+          <i class="fab fa-react"></i>
+          <i class="fab fa-aws"></i>
+          <i class="fab fa-sketch"></i>
+          <i class="fab fa-figma"></i>
+          <i class="fab fa-git"></i>
+          <i class="fab fa-chrome"></i>
+          <i class="fas fa-terminal"></i>
+          <i class="fas fa-universal-access"></i>
+          <i class="fab fa-npm"></i>
+          <i class="fab fa-node"></i>
+          <i class="fab fa-github"></i>
+        </div>
+      </section>
+    </main>
+    <footer>Crafted with care by Rafael</footer>
+  </body>
+</html>
