@@ -11,6 +11,10 @@
   --hover-bg: rgba(139, 92, 246, 0.2);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Inter', sans-serif;
   background-color: var(--background-color);
@@ -38,16 +42,19 @@ ul.navigation-items {
   gap: 20px;
 }
 
-li.navigation-item {
+.navigation-item a {
   cursor: pointer;
+  font-weight: bold;
   padding: 8px 12px;
   border-radius: var(--border-radius);
   transition: background 0.3s, color 0.3s;
+  text-decoration: none;
+  color: var(--primary-color);
 }
 
-li.navigation-item:hover {
+.navigation-item a:hover {
   background: var(--hover-bg);
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 main {
@@ -158,6 +165,52 @@ img.portrait {
 .project-description {
   font-size: 15px;
   opacity: 0.9;
+}
+
+#skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+#skills-container i {
+  font-size: 3rem; /* Adjust icon size */
+  color: var(--primary-color);
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+#skills-container i:hover {
+  transform: scale(1.2);
+  color: var(--secondary-color);
+}
+
+#contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+#contact-container i {
+  font-size: 3rem; /* Adjust icon size */
+  color: var(--primary-color);
+  transition: transform 0.3s ease, color 0.3s ease;
+  cursor: pointer;
+}
+
+#contact-container i:hover {
+  transform: scale(1.2);
+  color: var(--secondary-color);
+}
+
+/* Make icons responsive */
+@media (max-width: 768px) {
+  #contact-container i {
+    font-size: 2.5rem;
+  }
 }
 
 footer {

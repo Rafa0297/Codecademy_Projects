@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
     <script src="app.js" defer></script>
     <title>My portfolio</title>
   </head>
@@ -11,10 +15,10 @@
     <nav>
       <h2 id="logo">Rafael Infante</h2>
       <ul class="navigation-items">
-        <li class="navigation-item" href="#about-me">About Me</li>
-        <li class="navigation-item" href="#projects">Projects</li>
-        <li class="navigation-item" href="#skills">Skills</li>
-        <li class="navigation-item" href="#contact">Contact</li>
+        <li class="navigation-item"><a href="#about-me">About Me</a></li>
+        <li class="navigation-item"><a href="#projects">Projects</a></li>
+        <li class="navigation-item"><a href="#skills">Skills</a></li>
+        <li class="navigation-item"><a href="#contact">Contact</a></li>
       </ul>
     </nav>
 
@@ -68,7 +72,9 @@
           <p class="project-description">
             App designed to connect older adults with caregivers
           </p>
-          <a href="https://lovinghands.netlify.app/">Link to LovingHands</a>
+          <a target="_blank" href="https://lovinghands.netlify.app/"
+            >Link to LovingHands</a
+          >
         </details>
         <details class="project">
           <summary class="project-title">
@@ -83,7 +89,9 @@
             Developed unSocial, a full-stack social media application designed
             to foster authentic interactions.
           </p>
-          <a href="https://unsocialproject.netlify.app/">Link to unSocial</a>
+          <a target="_blank" href="https://unsocialproject.netlify.app/"
+            >Link to unSocial</a
+          >
         </details>
         <details class="project">
           <summary class="project-title">
@@ -106,19 +114,33 @@
           <i class="fab fa-css3-alt"></i>
           <i class="fab fa-js"></i>
           <i class="fab fa-react"></i>
-          <i class="fab fa-aws"></i>
-          <i class="fab fa-sketch"></i>
           <i class="fab fa-figma"></i>
           <i class="fab fa-git"></i>
           <i class="fab fa-chrome"></i>
           <i class="fas fa-terminal"></i>
-          <i class="fas fa-universal-access"></i>
           <i class="fab fa-npm"></i>
           <i class="fab fa-node"></i>
           <i class="fab fa-github"></i>
         </div>
       </section>
+
+      <section id="contact">
+        <h2>Contact</h2>
+        <p>Have an interesting project? I would love to hear about it!</p>
+        <div id="contact-container">
+          <a target="_blank" href="https://www.linkedin.com/in/rinfante91/"
+            ><i class="fab fa-linkedin icon"></i
+          ></a>
+          <a target="_blank" href="https://github.com/Rafa0297"
+            ><i class="fab fa-github icon"></i
+          ></a>
+          <a href="mailto:rinfanteing1991@gmail.com"
+            ><i class="fas fa-envelope-square icon"></i
+          ></a>
+        </div>
+      </section>
     </main>
+
     <footer>Crafted with care by Rafael</footer>
   </body>
 </html>
