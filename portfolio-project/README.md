@@ -12,7 +12,7 @@ Welcome to my personal portfolio! This project showcases my skills, projects, an
 ## 🛠️ Tech Stack
 
 - **Frontend**: HTML, CSS, JavaScript
-- **Other**: Git, GitHub, Tailwind CSS
+- **Other**: Git, GitHub and Github Pages
 
 ## 🚀 Getting Started
 
