@@ -11,9 +11,7 @@ Welcome to my personal portfolio! This project showcases my skills, projects, an
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: HTML, CSS, JavaScript, React.js
-- **Backend**: Node.js, Express.js
-- **Database**: MongoDB
+- **Frontend**: HTML, CSS, JavaScript
 - **Other**: Git, GitHub, Tailwind CSS
 
 ## 🚀 Getting Started
@@ -38,10 +36,6 @@ npm run dev
 ```
 
 Your portfolio will be available at `http://localhost:3000`
-
-## 📸 Screenshots
-
-![Portfolio Screenshot](link-to-screenshot)
 
 ## 📬 Contact Me
 
